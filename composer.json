@@ -1,0 +1,19 @@
+{
+    "name": "isaacdarcilla/smssender",
+    "description": "Send SMS through D7 Networks API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Isaac",
+            "email": "isaacdarcilla@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Isaacdarcilla\\Smssender\\": "src/"
+        }
+    },
+    "require": {}
+}
