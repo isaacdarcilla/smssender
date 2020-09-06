@@ -27,4 +27,4 @@ Route::get('/send', function () {
 ```
 
 ## 🔖 License
-[MIT](https://github.com/isaacdarcilla/smssender/blob/master/LICENSE)
+[MIT License](https://github.com/isaacdarcilla/smssender/blob/master/LICENSE)
