@@ -4,7 +4,7 @@ namespace Isaacdarcilla\Smssender;
 
 class Smssender
 {
-    public function send(String $authorization, String $to, String $from, String $content)
+    public function send(String $authorization, String $to, String $from, String $content, $debug=true)
     {
     	$curl = curl_init();
 		curl_setopt_array($curl, array(
@@ -26,5 +26,9 @@ class Smssender
 		$response = curl_exec($curl);
 
 		curl_close($curl);
+
+		if($debug == true){
+			echo $response;
+		}
     }
 }
