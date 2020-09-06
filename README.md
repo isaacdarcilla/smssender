@@ -1,8 +1,8 @@
-# SMS Sender
+# 💌 SMS Sender
 
 Laravel package that can send SMS SMS through D7 Networks API.
 
-## Installation
+## ⬇️ Installation
 
 The suggested installation method is via [composer](https://getcomposer.org/):
 
@@ -10,11 +10,11 @@ The suggested installation method is via [composer](https://getcomposer.org/):
 composer require "isaacdarcilla/smssender:^1.0.0"
 ```
 
-## Prerequisite
+## 👏 Prerequisite
 
-You must register for an SMS API Token from [D7Networks](https://dashboard.d7networks.com/) first.
+You must register for an **SMS API Token** from [D7Networks](https://dashboard.d7networks.com/) first.
 
-## Usage
+## ❓ Usage
 
 Send a simple SMS using the code snippet below. In your laravel ```routes/web.php```,
 
@@ -30,5 +30,5 @@ Route::get('/send', function () {
 });
 ```
 
-## 🔖 LICENCE
+## 🔖 License
 [MIT](https://github.com/isaacdarcilla/smssender/blob/master/LICENSE)
