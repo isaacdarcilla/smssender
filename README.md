@@ -19,10 +19,10 @@ You must register for an **SMS API Token** from [D7Networks](https://dashboard.d
 Send a simple SMS using the code snippet below. In your laravel ```routes/web.php```,
 
 ```php
-$token = "Your API token key";
+$token = "Your SMS API Token";
 $to = "Your recepient number";
 $from = "Your name";
-$message = "Your costum message";
+$message = "Your message";
 
 Route::get('/send', function () {
     $sms = new Smssender();
