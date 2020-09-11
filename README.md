@@ -20,6 +20,8 @@ Send a simple SMS using the code snippet below. In your laravel ```routes/web.ph
 add the code snippets. The `$token` parameter is your SMS API Token from [D7Networks](https://dashboard.d7networks.com/), `$to` parameter is the receiver phone number, `$from` is the sender, `$message` parameter is your message to be sent. To enable debug, set the debug to `true` and `false` to disable it.
 
 ```php
+use Isaacdarcilla\Smssender;
+
 Route::get('/send', function () {
     $sms = new Smssender();
     return $sms->send($token, $to, $from, $message, true);
