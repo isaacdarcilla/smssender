@@ -1,6 +1,6 @@
 # 💌 SMS Sender
 
-Laravel package that can send SMS through D7 Networks API.
+Laravel package that can send SMS through D7 Networks API. Send SMS using Laravel.
 
 ## ⬇️ Installation
 
